@@ -1,7 +1,9 @@
-# AotApp
+# AOT -vs- JIT App
 
 This Project exhibits the differences in Ahead of Time and Just in Time project behavior and shows the differences in minified files their sizes and run-time performance difference between two compilations.
 
+Ahead in time produce minified bundles:
+![alt tag](https://github.com/avilavate/Angular2_AOT_vs_JIT_Compilation/blob/master/src/assets/aot-minification.jpg)
 
 ## How to Test/Run
 Production- Run `ng build --prod` this will generate a distribution package of the app in  app/dist location, host this folder in you web server (IIS, lite etc.).
