@@ -1,9 +1,15 @@
 # AotApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-rc.1.
+This Project exhibits the differences in Ahead of Time and Just in Time project behavior and shows the differences in minified files their sizes and run-time performance difference between two compilations.
+
+
+## How to Test/Run
+### Production- Run `ng build --prod` this will generate a distribution package of the app in  app/dist location, host this folder in you web server (IIS, lite etc.).
+
+### Development- Run `ng server` this will run app at localhost:4200 (4200 is default port) and compare the network traces of these apps.
 
 ## Development server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve --prod` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 

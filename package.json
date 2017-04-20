@@ -2,6 +2,7 @@
   "name": "aot-app",
   "version": "0.0.0",
   "license": "MIT",
+  "author": "Avil",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
